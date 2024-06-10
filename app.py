@@ -5,8 +5,8 @@ import streamlit as st
 import pandas as pd
 from streamlit_lottie import st_lottie
 
-# st.title("Jay Hind Driving School, Surli.")
-st.beta_set_page_config(page_title='Jay Hind Driving School, Surli.', page_icon = logo3.png)
+st.title("Jay Hind Driving School, Surli.")
+# st.beta_set_page_config(page_title='Jay Hind Driving School, Surli.', page_icon = logo3.png)
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
