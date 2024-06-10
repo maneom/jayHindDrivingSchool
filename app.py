@@ -5,15 +5,13 @@ import streamlit as st
 import pandas as pd
 from streamlit_lottie import st_lottie
 
-st.title("Jay Hind Driving School, Surli.")
-# st.beta_set_page_config(page_title='Jay Hind Driving School, Surli.', page_icon = logo3.png)
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+# hide_streamlit_style = """
+#             <style>
+#             #MainMenu {visibility: hidden;}
+#             footer {visibility: hidden;}
+#             </style>
+#             """
+# st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 user_menu = st.sidebar.radio("पर्याय निवडा", ["मुख्यपृष्ठ", "प्रतिमा", "उपलब्ध सेवा", "संपर्क"])
 if user_menu == "मुख्यपृष्ठ" :
